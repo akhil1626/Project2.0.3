@@ -2,7 +2,7 @@
 <jsp><HEAD>
 <TITLE>Secured Netauction --> Registration</TITLE>
 </HEAD>
-<BODY bgColor="#a3d88" leftMargin=0 topMargin=0 MARGINHEIGHT="0" MARGINWIDTH="0">  <!-- ImageReady Slices (Untitled-1) -->
+<BODY bgColor="#dbfcff" leftMargin=0 topMargin=0 MARGINHEIGHT="0" MARGINWIDTH="0">  <!-- ImageReady Slices (Untitled-1) -->
 <p align="right">
 <TABLE cellSpacing=0 cellPadding=0 width=780 border=0>
   <TBODY>
@@ -68,7 +68,7 @@
 <center><TABLE>
 <TBODY>
 <TR> 
-    <TD bgColor=#009966 align="center"><FONT SIZE=18>Registration  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <TD bgColor=#dbfcff align="center"><FONT SIZE=18>Registration  
 </TD></TR></TBODY></TABLE></STRONG></FONT></p>
 <BLOCKQUOTE>
 <FORM action="RegistrationServlet" method=post>
@@ -228,7 +228,7 @@
             <TD bgColor=#bae39a></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
 </center><BR>
 <center>
-  <TABLE borderColor=#cccc99 height=37 cellSpacing=0 cellPadding=0 width=268 
+  <TABLE borderColor=#dbfcff height=37 cellSpacing=0 cellPadding=0 width=200 
   border=1>
     <TBODY>
     <TR>

@@ -3,7 +3,7 @@
 	<HEAD>
 		<TITLE>Secured Netauction-->home</TITLE>
 			</HEAD>
-	<BODY bgColor="#a3d881" leftMargin="0" topMargin="0" MARGINHEIGHT="0" MARGINWIDTH="0"> <!-- ImageReady Slices (Untitled-1) -->
+	<BODY bgColor="#dbfcff" leftMargin="0" topMargin="0" MARGINHEIGHT="0" MARGINWIDTH="0"> <!-- ImageReady Slices (Untitled-1) -->
 		
 	
 		<p align="right">
@@ -51,7 +51,7 @@
    <TBODY>
 	<TR>
        <TD vAlign="top" 
-background="home_files/EIMAGE2.GIF" height="114">
+background="" height="114">
 	<P align="center"><FONT color="#ffcc00">
         <STRONG><FONT face="Georgia, Times New Roman, Times, serif" color="#ff0000" size="4"><EM>Buy Now</EM></FONT></STRONG></FONT></P>
 			<P align="center"><EM><FONT face="Georgia, Times New Roman, Times, serif" color="#ff0000" size="4"><STRONG>Old Audio &amp; Video C.D.'s</STRONG></FONT></EM></P>
@@ -119,10 +119,10 @@ required to browse  items on the auction floor.
 
 
   <P><A href="./registration.jsp">
-  <IMG height="120" src="home_files/ADD3.GIF" width="160" border="0"></A></P>
+  <IMG height="120" src="" width="0" border="0"></A></P>
 
 
-  <P><IMG height="120" src="home_files/ADD4.GIF" width="160"></P>
+  <P><IMG height="120" src="" width="0"></P>
   <P>&nbsp;</P>
  </TD>
 </TR>

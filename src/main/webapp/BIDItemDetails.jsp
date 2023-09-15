@@ -39,7 +39,7 @@ function luhnCheck() {
                 return true;
             }
 </script>
-<BODY bgColor=#a3d881 leftMargin=0 topMargin=0 MARGINHEIGHT=0 MARGINWIDTH=0>
+<BODY bgColor=#dbfcff leftMargin=0 topMargin=0 MARGINHEIGHT=0 MARGINWIDTH=0>
 <%
    String theuser=request.getParameter("theuser");
 %>

@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.*;
 import java.sql.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -37,7 +36,7 @@ public class SellServlet extends HttpServlet
        		String cmd;
 		response.setContentType("text/html");
 		PrintWriter pw=response.getWriter();
-        pw.println("<BODY bgColor=#a3d881 leftMargin=0 topMargin=0 MARGINHEIGHT=0 MARGINWIDTH=0><!-- ImageReady Slices (Untitled-1) -->");
+        pw.println("<BODY bgColor=#dbfcff leftMargin=0 topMargin=0 MARGINHEIGHT=0 MARGINWIDTH=0><!-- ImageReady Slices (Untitled-1) -->");
 		//pw.println("<DIV id=Layer1 style='Z-INDEX: 1; LEFT: 410px; WIDTH: 328px; POSITION: absolute; TOP: 65px; HEIGHT: 35px'>");
 		
 		pw.println("<p align=right><TABLE cellSpacing=0 cellPadding=0 width=781 border=0><TBODY><BR><TR><TD><A href='./home.jsp'><STRONG><FONT COLOR='BROWN' FACE='CURLZ MT'>HOME</STRONG></A> </TD>      <TD>  <A href='./login.jsp'><STRONG> <FONT COLOR='BROWN' FACE='CURLZ MT'>LOGIN</STRONG>  </A></TD>      <TD>    <A href='./registration.jsp'><STRONG><FONT COLOR='BROWN' FACE='CURLZ MT'>REGISTER</STRONG></A></TD>    <TD> <A href='./sell.jsp'><STRONG><FONT COLOR='BROWN' FACE='CURLZ MT'>SELL</STRONG>      </A></TD>   <TD> <A href='./ForSale.jsp'><STRONG><FONT COLOR='BROWN' FACE='CURLZ MT'>CURRENT BID ITEMS</STRONG>      </A></TD> <TD> <A href='./help.jsp'><STRONG><FONT COLOR='BROWN' FACE='CURLZ MT'>HELP</STRONG> </A></TD></TR><TD></TD>  </TBODY></TABLE></p><br><br>");
@@ -112,8 +111,8 @@ public class SellServlet extends HttpServlet
 					System.out.println("----" +squery+ " -------");
 					int i=st1.executeUpdate(squery);
 
-					pw.println("<b><center> U have Sucess fully have posted u r item to auction online<b><br>");
-					pw.println("<br> <center>u r item id is: <b> "+titemid);
+					pw.println("<b><center> ITEM POSTED SUCCESSFULLY<b><br>");
+					pw.println("<br> <center>Item id is: <b> "+titemid);
 
 					con.close();
 				}
@@ -124,7 +123,7 @@ public class SellServlet extends HttpServlet
 			}
 			else
 			{
-				pw.println("<br><br>user name does not exist");
+				pw.println("<br><br>User name does not exist");
 			}
 		}
 		pw.println("</b><br><br><br></CENTER><CENTER><STRONG></STRONG>");
@@ -216,4 +215,3 @@ public class SellServlet extends HttpServlet
     }
 
 }
-

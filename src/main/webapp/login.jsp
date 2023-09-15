@@ -1,7 +1,7 @@
 <%@ page import="java.sql.*"%>
 <jsp><HEAD><TITLE>Secured Netauction -->login</TITLE>
   </HEAD>
-<BODY bgColor=#a3d881 leftMargin=0 topMargin=0 MARGINHEIGHT="0" MARGINWIDTH="0"><!-- ImageReady Slices (Untitled-1) -->
+<BODY bgColor=#dbfcff leftMargin=0 topMargin=0 MARGINHEIGHT="0" MARGINWIDTH="0"><!-- ImageReady Slices (Untitled-1) -->
 <p align="right">
 <TABLE cellSpacing=0 cellPadding=0 width=780 border=0>
   <TBODY>
@@ -95,7 +95,7 @@ Password </font></strong></font><font face="Georgia, Times New Roman, Times, ser
     </P>
   </FORM>
 </DIV>
-<div id="Layer2" style="position:absolute; left:40px; top:181px; width:168px; height:131px; z-index:2"><a href="./help.jsp"><img src="ADD12.GIF" width="170" height="127" border="0"></a></div>
+<div id="Layer2" style="position:absolute; left:40px; top:181px; width:168px; height:131px; z-index:2"><a href="./help.jsp"><img src="" width="" height="" border="0"></a></div>
        
 
 <P><!-- End ImageReady Slices --></P>

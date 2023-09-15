@@ -3,7 +3,7 @@
 <TITLE>Secured Netauction --> Registration</TITLE>
 <meta http-equiv="refresh" content=4>
 </HEAD>
-<BODY bgColor="#a3d88" leftMargin=0 topMargin=0 MARGINHEIGHT="0" MARGINWIDTH="0">  <!-- ImageReady Slices (Untitled-1) -->
+<BODY bgColor="#dbfcff" leftMargin=0 topMargin=0 MARGINHEIGHT="0" MARGINWIDTH="0">  <!-- ImageReady Slices (Untitled-1) -->
 <p align="right">
 <TABLE cellSpacing=0 cellPadding=0 width=780 border=0>
   <TBODY>
@@ -67,7 +67,7 @@
 <center><TABLE>
 <TBODY>
 <TR> 
-    <TD bgColor=#009966 align="center"><FONT size=6><STRONG>BID STATUS  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <TD bgColor=#dbfcff align="center"><FONT size=6><STRONG>BID STATUS  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </TD></TR></TBODY></TABLE></STRONG></p>
 <BLOCKQUOTE>
 <FORM action="RegistrationServlet" method=post>

@@ -38,7 +38,7 @@ public class RegistrationServlet extends HttpServlet
 		country=req.getParameter("country");
 		creditcard = req.getParameter("creditcard");
 
-		pw.println("<BODY bgColor=#a3d881 leftMargin=0 topMargin=0 MARGINHEIGHT=0 MARGINWIDTH=0><!-- ImageReady Slices (Untitled-1) -->");
+		pw.println("<BODY bgColor=#dbfcff leftMargin=0 topMargin=0 MARGINHEIGHT=0 MARGINWIDTH=0><!-- ImageReady Slices (Untitled-1) -->");
 		//pw.println("<DIV id=Layer1 style='Z-INDEX: 1; LEFT: 410px; WIDTH: 328px; POSITION: absolute; TOP: 65px; HEIGHT: 35px'>");
 		
 		pw.println("<p align=right><TABLE cellSpacing=0 cellPadding=0 width=781 border=0><TBODY><BR><TR><TD><A href='./home.jsp'><STRONG><FONT COLOR='BROWN' FACE='CURLZ MT'>HOME</STRONG></A> </TD>      <TD>  <A href='./login.jsp'><STRONG> <FONT COLOR='BROWN' FACE='CURLZ MT'>LOGIN</STRONG>  </A></TD>      <TD>    <A href='./registration.jsp'><STRONG><FONT COLOR='BROWN' FACE='CURLZ MT'>REGISTER</STRONG></A></TD>    <TD> <A href='./sell.jsp'><STRONG><FONT COLOR='BROWN' FACE='CURLZ MT'>SELL</STRONG>      </A></TD>  <TD> <A href='./ForSale.jsp'><STRONG><FONT COLOR='BROWN' FACE='CURLZ MT'>CURRENT BID ITEMS</STRONG>      </A></TD> <TD> <A href='./help.jsp'><STRONG><FONT COLOR='BROWN' FACE='CURLZ MT'>HELP</STRONG> </A></TD></TR><TD></TD>  </TBODY></TABLE></p><br><br>");
@@ -73,10 +73,14 @@ public class RegistrationServlet extends HttpServlet
                throw new Exception ("JDBC did not create any row");
            }
 
-		pw.println(" <br><br><center>u have sucessfully created a user on this Auction House");
-		pw.println("<br> u r user name is <b>"+theuser);
+		//pw.println(" <br><br><center;font-size: 50px>Registration Sucessfull");
+		pw.println("<br><br><center><b><p style=\"font-size:30px;\">Registration Successful......!</p></b></center>");
+		//pw.println("<br>Your user name is <b>"+theuser);
+		//pw.println("<br><br><center><b><p style=\"font-size:35px;\">Your user name is </p><b>""+theuser);
+		pw.println("<center><b><p style=\"font-size:30px;\">Your user name is " + theuser + "</p></b></center>");
+
 		
-	}catch(Exception e){pw.println("<br><br><center><b>user name already exists"); }
+	}catch(Exception e){pw.println("<br><br><center><b>USER  ALREADY  EXSISTS"); }
 
 		pw.println("</b></center><br><br><br><CENTER><STRONG></STRONG>");
 		pw.println("<A href='./NewToday'>New Items</A><STRONG></STRONG>");

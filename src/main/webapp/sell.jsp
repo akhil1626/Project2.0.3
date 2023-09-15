@@ -1,7 +1,7 @@
 <%@ page import="java.sql.*"%>
 <jsp><HEAD><TITLE>Secured Netauction --> Post Items</TITLE>
 </HEAD>
-<BODY bgColor=#a3d881 leftMargin=0 topMargin=0 MARGINHEIGHT="0" MARGINWIDTH="0"><!-- ImageReady Slices (Untitled-1) -->
+<BODY bgColor=#dbfcff leftMargin=0 topMargin=0 MARGINHEIGHT="0" MARGINWIDTH="0"><!-- ImageReady Slices (Untitled-1) -->
 <p align="right">
 <TABLE cellSpacing=0 cellPadding=0 width=780 border=0>
   <TBODY>
@@ -58,8 +58,8 @@
 <H3><center>Post Item For Auction</H3>
 
 <DIV id=Layer2 
-style="Z-INDEX: 2; LEFT: 15px; WIDTH: 193px; POSITION: absolute; TOP: 224px; HEIGHT: 145px"><a href="./registration.jsp"><IMG src="sell_files/ADD3.GIF" width=190 
-height=142 border="0"></a></DIV>
+style="Z-INDEX: 2; LEFT: 15px; WIDTH: 193px; POSITION: absolute; TOP: 224px; HEIGHT: 145px"><a href="./registration.jsp"><IMG src="" width= 
+height= border="0"></a></DIV>
 <P>&nbsp; 
 <FORM name=form1 action="./SellServlet" method=post>
 <TABLE height=414 width=756 align=center><INPUT type=hidden value="insert" name="action"> 
@@ -107,7 +107,7 @@ height=142 border="0"></a></DIV>
     <TD vAlign=center><INPUT id=incrprice size=10 name=incrprice></TD></TR>
 
 <TR>
-        <TD vAlign=top><img src=" registration_files\ADD11.jpg" width="190" height="122"></TD>    
+        <TD vAlign=top><img src=" " width="0" height="0"></TD>    
     <TD vAlign=top align=right><STRONG>Description of item:</STRONG></TD>
     <TD vAlign=center><TEXTAREA name=description rows=8 cols=40></TEXTAREA></TD></TR>
   <TR>

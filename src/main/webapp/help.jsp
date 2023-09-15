@@ -2,7 +2,7 @@
 <jsp><HEAD><TITLE>Secured Netauction--> help</TITLE>
 
 </HEAD>
-<BODY bgColor=#a3d881 leftMargin=0 topMargin=0 MARGINHEIGHT="0" MARGINWIDTH="0">
+<BODY bgColor=#dbfcff leftMargin=0 topMargin=0 MARGINHEIGHT="0" MARGINWIDTH="0">
 <p align="right">
 <TABLE cellSpacing=0 cellPadding=0 width=780 border=0>
   <TBODY>
