@@ -155,7 +155,7 @@
 
 <context-param>
 <param-name>durl</param-name>
-<param-value>jdbc:mysql://localhost:3306/onlineauction</param-value>
+<param-value>jdbc:mysql://onlineauction.ca4v8tkgqbvq.ap-south-1.rds.amazonaws.com:3306/onlineauction</param-value>
 </context-param>
 
 <context-param>
@@ -165,7 +165,7 @@
 
 <context-param>
 <param-name>dpass</param-name>
-<param-value>Akhil@849984</param-value>
+<param-value>Akhil849984</param-value>
 </context-param>
 
 </web-app>
